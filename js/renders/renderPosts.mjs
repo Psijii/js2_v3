@@ -33,7 +33,7 @@ export function renderPostWall(post, isPrivate, parentId) {
    * project. 
    */
 
-  const editbutton = `<a href="edit.html?id=${post.id}" class="btn w-50 btn-primary rounded-2 m-2">Edit</a>`;
+  const editbutton = `<a href="/feed/edit.html?id=${post.id}" class="btn w-50 btn-primary rounded-2 m-2">Edit</a>`;
   const deleteButton = `<button id="delete-post" name="${post.id}" class="btn w-50 btn-secondary rounded-2 m-2">Delete</button>`;
 
   //like and comment are placed educational purposes only. they have no functionality other than to show how the buttons would look like.

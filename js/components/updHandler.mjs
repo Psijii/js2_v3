@@ -48,7 +48,7 @@ export async function updHandler() {
 
     setTimeout(() => {
       popup.style.display = "none";
-      window.location.href = `/profile.html`;
+      window.location.href = `/profile/index.html`;
     }, 2000); // Adjust the time (in milliseconds) the pop-up is displayed as needed
   });
 }
