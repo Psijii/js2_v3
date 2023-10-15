@@ -11,6 +11,7 @@
  * @param {string} string - The input string to process.
  * @returns {string} - The modified string with "#" prefixes.
  */
+
 export function prefixTag(string) {
   return string
     .split("#")

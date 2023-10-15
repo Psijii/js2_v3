@@ -1,7 +1,7 @@
 // Initiate user registration
 import { register } from "../api/authUser.mjs";
 
-/**
+/** 
 * Registers a new user.
 *
 * Listens for submit event on registration form.

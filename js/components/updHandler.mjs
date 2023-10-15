@@ -12,7 +12,7 @@ import { updatePost } from "../api/post/updPost.mjs";
 * Calls updatePost() with updated post object.
 * Displays a pop-up message instead of using alert.
 * Navigates back to profile page.
-*  
+*   
 * @async
 * @function updHandler
 */
@@ -24,7 +24,7 @@ export async function updHandler() {
   const id = params.get("id");
   const post = await getSinglePost(id);
 
-  updateForm.title.value = post.title;
+  updateForm.title.valueOf = post.title;
   updateForm.body.value = post.body;
   updateForm.tags.value = post.tags;
   updateForm.media.value = post.media;

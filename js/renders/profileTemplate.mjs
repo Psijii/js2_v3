@@ -14,7 +14,7 @@
 * @param {string} profile.email - User email
 * @param {string} profile.avatar - URL to avatar image
 */
-
+ 
 /**time ran out from me, so I couldn't make the profile work optimal.
  *I tried to show where the logic sohuld be, but..
  */
