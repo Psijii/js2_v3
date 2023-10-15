@@ -1,5 +1,3 @@
-
-
 /**
 * Renders user profile header.
 * 
@@ -25,7 +23,6 @@ export function profileTemplate(profile) {
 
   const profileHeader = document.querySelector(".profile-info");
 
-
   const info = document.createElement("div");
   info.classList.add(
     "container",
@@ -36,7 +33,6 @@ export function profileTemplate(profile) {
     "my-4",
     "rounded-2"
   );
-
 
   const profilePictureImg = document.createElement("img");
   profilePictureImg.classList.add(
@@ -49,7 +45,6 @@ export function profileTemplate(profile) {
   profilePictureImg.alt = "";
   profilePictureImg.style.maxWidth = "250px";
 
-
   const nameContainer = document.createElement("div");
   nameContainer.classList.add(
     "name-container",
@@ -57,7 +52,6 @@ export function profileTemplate(profile) {
     "my-4",
     "rounded-2"
   );
-
 
   const profileNameP = document.createElement("p");
   profileNameP.classList.add("profile-name");
@@ -70,7 +64,6 @@ export function profileTemplate(profile) {
     "text-secondary"
   );
   profileUsernameP.textContent = profile.email;
-
 
   nameContainer.appendChild(profileNameP);
   nameContainer.appendChild(profileUsernameP);

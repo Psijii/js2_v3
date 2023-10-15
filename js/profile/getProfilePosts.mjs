@@ -1,5 +1,3 @@
-"use strict";
-
 import { SOCIAL_API_URL } from "../api/APIvariables.mjs";
 import { fetchToken } from "../api/fetchToken.mjs";
 import { renderPostWall } from "../renders/renderPosts.mjs";
@@ -12,7 +10,6 @@ const actionEndpoint =
   `/profiles/${myProfile.name}/posts?_author=true`;
 /**
 * Fetches all posts from API and renders them.
-* 
 * Constructs posts API URL using constants.
 * Calls fetchToken() to make authorized API request. 
 * Parses JSON response into posts array.

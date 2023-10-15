@@ -4,7 +4,6 @@ import { fetchToken } from "../api/fetchToken.mjs";
 import { profileTemplate } from "../renders/profileTemplate.mjs";
 
 const user = profile("profile");
-
 const actionEndpoint = `/profiles/${user.name}`;
 
 /**
