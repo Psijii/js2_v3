@@ -23,7 +23,7 @@ body {
 
 //contacts
 .contact-picture {
-  @include contact-picture(3.125rem, 3.125rem);
+  @include contact-picture(50px, 50px);
 }
 
 .contact-name {

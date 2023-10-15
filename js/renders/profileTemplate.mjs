@@ -47,6 +47,7 @@ export function profileTemplate(profile) {
   );
   profilePictureImg.src = profile.avatar;
   profilePictureImg.alt = "";
+  profilePictureImg.style.maxWidth = "250px";
 
 
   const nameContainer = document.createElement("div");

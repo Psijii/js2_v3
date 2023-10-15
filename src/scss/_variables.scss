@@ -49,4 +49,8 @@ $link-decoration: none;
 $main-section-width: 59.625rem;
 $message-max-width: 46.875rem;
 
+@mixin contact-picture($picture-width, $picture-height) {
+  width: $picture-width;
 
+  height: $picture-height;
+}
