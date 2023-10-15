@@ -9,7 +9,7 @@ const actionEndpoint = `/profiles/${user.name}`;
 
 /**
 * Fetches user profile data from API.
-* 
+*  
 * Constructs profile API URL using constants.
 * Calls fetchToken() to make authorized API request.
 * Parses JSON response into profile object.

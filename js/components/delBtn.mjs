@@ -1,6 +1,6 @@
 import { delPost } from "../api/post/delPost.mjs";
 
-/**
+/** 
 * Adds click handlers to delete buttons.
 * 
 * Gets all delete buttons from the DOM. 

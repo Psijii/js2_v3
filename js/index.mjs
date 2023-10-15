@@ -9,6 +9,7 @@ import { submitPost } from "../js/components/submitPost.mjs";
  * using the `renderPostWall` function. It iterates through the list of posts and
  * renders them in a specified container on the web page.
  */
+
 const posts = await getPosts();
 posts.forEach((post) => renderPostWall(post, false, ".message_container"));
 

@@ -1,7 +1,7 @@
 // Support functions for loading data from localStorage
 /**
 * Gets data from localStorage.
-* 
+*  
 * Retrieves item from localStorage by key.
 * Parses JSON string to object.
 * Returns parsed data object.

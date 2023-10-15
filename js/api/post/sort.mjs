@@ -7,7 +7,7 @@ import { fetchToken } from "../fetchToken.mjs";
  * that I tried to make something, and made something that works, but
  * it is not perfect.
  */
-
+ 
 
 const actionEndpoint = "/posts";
 /**

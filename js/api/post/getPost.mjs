@@ -10,7 +10,7 @@ const actionEndpoint = "/posts?sortOrder=desc&limit=50&_author=true";
 * Appends tag query if passed.
 * Calls fetchToken() to make authorized request.
 * Returns parsed JSON response.
-* 
+*  
 * @async
 * @function getPosts - Gets posts from API optionally filtered by tag
 * @param {string} [tag] - Filter posts by tag

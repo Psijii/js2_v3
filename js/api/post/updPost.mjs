@@ -4,7 +4,7 @@ import { fetchToken } from "../fetchToken.mjs";
 
 const actionEndpoint = "/posts";
 
-/**
+/** 
 * Updates a post.
 * 
 * Constructs API URL for updating post with ID.

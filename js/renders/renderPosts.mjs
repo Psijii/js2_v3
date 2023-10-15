@@ -1,7 +1,6 @@
-
 /**
 * Renders a post element using innerHTML.
-* 
+*  
 * Creates a div element and adds styling classes.
 * Generates HTML strings for edit/delete or comment/like buttons based on isPrivate flag.
 * Sets div innerHTML to rendered post HTML using template literals.

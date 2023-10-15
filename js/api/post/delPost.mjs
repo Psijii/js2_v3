@@ -10,7 +10,7 @@ const actionEndpoint = "/posts";
 * Appends tag query if passed.
 * Calls fetchToken() to make authorized request.
 * Returns parsed JSON response.
-* 
+*  
 * @async
 * @function getPosts - Gets posts from API optionally filtered by tag
 * @param {string} [tag] - Filter posts by tag

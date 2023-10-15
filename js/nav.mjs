@@ -43,3 +43,4 @@ function toProfile() {
 profileLink.addEventListener("click", toProfile);
 logOutBtn.addEventListener("click", logOut);
 
+

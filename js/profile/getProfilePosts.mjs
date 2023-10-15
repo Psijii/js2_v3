@@ -5,7 +5,7 @@ import { fetchToken } from "../api/fetchToken.mjs";
 import { renderPostWall } from "../renders/renderPosts.mjs";
 import { delBtn } from "../components/delBtn.mjs";
 import { profile } from "./getProfileName.mjs";
-
+ 
 const myProfile = profile("profile");
 
 const actionEndpoint =
