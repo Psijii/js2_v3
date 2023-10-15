@@ -28,6 +28,8 @@ Sorting Posts: There is a known issue with sorting posts in JavaScript, which wa
 
 Console Log "/null": Another known issue is the appearance of "/null" in the console log, which was also impossible to address within the given time constraints.
 
+Error with Sass's src and dist, another known issue, making it harder to work with Sass, but due to time constraints I wasn't able to repair this problem.
+
 If you encounter any other issues during the project, feel free to document them here and provide information on how to address them.
 
 ## Contact Information
