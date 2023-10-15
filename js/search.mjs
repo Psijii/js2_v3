@@ -14,11 +14,11 @@ import { tagSearch } from "../js/components/search.mjs";
 * @returns {Promise<void>}
 */
 export async function init() {
- const queryString = document.location.search;
- const params = new URLSearchParams(queryString);
- const tag = params.get("tag");
- const posts = await getPosts(tag);
- posts.forEach((post) => renderPostWall(post, false, ".profile_posts"));
+  const queryString = document.location.search;
+  const params = new URLSearchParams(queryString);
+  const tag = params.get("tag");
+  const posts = await getPosts(tag);
+  posts.forEach((post) => renderPostWall(post, false, ".profile_posts"));
 }
 
 init();

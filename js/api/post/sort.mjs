@@ -101,7 +101,7 @@ function displayPosts(posts) {
     messageElement.textContent = post.message;
 
     const tagsElement = document.createElement("p");
-    tagsElement.textContent = post.tags.join(", "); 
+    tagsElement.textContent = post.tags.join(", ");
 
     if (post.postMedia) {
       const imageElement = document.createElement("img");

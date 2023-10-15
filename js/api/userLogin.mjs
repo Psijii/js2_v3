@@ -15,38 +15,38 @@ const formAction = "/auth/login";
 * @param {Object} user - User login credentials
 */
 export async function login(user) {
-  const loginURL = SOCIAL_API_URL + formAction;
+    const loginURL = SOCIAL_API_URL + formAction;
 
-  try {
-      const response = await fetch(loginURL, {
-          method: "POST",
-          headers: {
-              "Content-Type": "application/json",
-          },
-          body: JSON.stringify(user),
-      });
+    try {
+        const response = await fetch(loginURL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(user),
+        });
 
-      if (response.ok) {
-          const { accessToken, ...profile } = await response.json();
+        if (response.ok) {
+            const { accessToken, ...profile } = await response.json();
 
-          localStorage.setItem("token", JSON.stringify(accessToken));
-          localStorage.setItem("profile", JSON.stringify(profile));
-          const successMessage = document.getElementById("successMessage");
-          successMessage.style.display = "block";
+            localStorage.setItem("token", JSON.stringify(accessToken));
+            localStorage.setItem("profile", JSON.stringify(profile));
+            const successMessage = document.getElementById("successMessage");
+            successMessage.style.display = "block";
 
-          // Redirect to /profile.html after 1000 milliseconds (1 second)
-          setTimeout(() => {
-              window.location.assign("/profile/index.html");
-          }, 1000);
-      } else {
-          // Display the error message only in case of a login failure
-          const errorMessage = document.getElementById("errorMessage");
-          errorMessage.style.display = "block";
-      }
-  } catch (error) {
-      // Handle any potential errors here, if necessary
-     // console.error("Login error: ", error);
-  }
+            // Redirect to /profile.html after 1000 milliseconds (1 second)
+            setTimeout(() => {
+                window.location.assign("/profile/index.html");
+            }, 1000);
+        } else {
+            // Display the error message only in case of a login failure
+            const errorMessage = document.getElementById("errorMessage");
+            errorMessage.style.display = "block";
+        }
+    } catch (error) {
+        // Handle any potential errors here, if necessary
+        // console.error("Login error: ", error);
+    }
 }
 
 

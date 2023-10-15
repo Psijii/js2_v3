@@ -12,18 +12,18 @@ import { delPost } from "../api/post/delPost.mjs";
 */
 export const delBtn = () => {
 
- const delBtns = document.querySelectorAll("#delete-post");
+  const delBtns = document.querySelectorAll("#delete-post");
 
- delBtns.forEach((button) => {
+  delBtns.forEach((button) => {
 
-   const {name} = button;
+    const { name } = button;
 
-   button.addEventListener("click", async () => {
-     
-     delPost({ id: name });
+    button.addEventListener("click", async () => {
 
-   });
+      delPost({ id: name });
 
- });
+    });
+
+  });
 
 }

@@ -20,13 +20,13 @@ const actionEndpoint = `/profiles/${user.name}`;
 * @returns {Promise<Object>} Promise resolving to profile object.
 */
 export async function getProfile() {
- const profileURL = SOCIAL_API_URL + actionEndpoint;
+  const profileURL = SOCIAL_API_URL + actionEndpoint;
 
- const response = await fetchToken(profileURL);
- const profile = await response.json();
+  const response = await fetchToken(profileURL);
+  const profile = await response.json();
 
- profileTemplate(profile);
+  profileTemplate(profile);
 
- return profile; 
+  return profile;
 }
 

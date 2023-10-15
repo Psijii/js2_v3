@@ -16,12 +16,12 @@ import { load } from "./loadToken.mjs";
 */
 export function addHeaders() {
 
- const token = load("token");
+  const token = load("token");
 
- return {
-   "Content-Type": "application/json",
-   Authorization: `Bearer ${token}`
- };
+  return {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${token}`
+  };
 
 }
 
@@ -40,9 +40,9 @@ export function addHeaders() {
 */
 export async function fetchToken(url, options = {}) {
 
- return fetch(url, {
-   ...options,
-   headers: addHeaders()
- });
+  return fetch(url, {
+    ...options,
+    headers: addHeaders()
+  });
 
 }

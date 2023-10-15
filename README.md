@@ -1,4 +1,5 @@
 # JS2
+
 ## Overview
 
 The project involves working with JavaScript, HTML, CSS, and other technologies to build a social media site. Please note that there are known issues, particularly related to the sorting of posts in JavaScript and the appearance of "/null" in the console log, which were impossible to finish due to time constraints. Below, you will find a brief outline of the project, setup instructions, and known issues.

@@ -2,7 +2,7 @@ import { logOut } from "../js/utils/logout.mjs";
 
 const profileLink = document.getElementById("profileNavLink");
 const feedLink = document.getElementById("feedNavLink");
-const logOutButton = document.getElementById("logOut");
+const logOutBtn = document.getElementById("logOut");
 const loggedInUser = localStorage.getItem("userId");
 
 /**
@@ -23,10 +23,10 @@ export function linkAuth() {
   if (token) {
     profileLink.classList.remove("disabled");
     feedLink.classList.remove("disabled");
-    logOutButton.style.display = "block"; //here I attempted to create the logout button to only
+    logOutBtn.style.display = "block"; //here I attempted to create the logout button to only
     //appear while the user is logged in, but it doesn't seem to be working, so I left it here for education purposes.
   } else {
-    logOutButton.style.display = "none"; 
+    logOutBtn.style.display = "none";
   }
 }
 
@@ -41,5 +41,5 @@ function toProfile() {
 
 // Event listeners
 profileLink.addEventListener("click", toProfile);
-logOutButton.addEventListener("click", logOut);
+logOutBtn.addEventListener("click", logOut);
 

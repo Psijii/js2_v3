@@ -1,6 +1,6 @@
 // Initializes submit button click handler.
 import { addPost } from "../api/post/addPost.mjs";
-import { prefixTag} from "../utils/prefixTag.mjs";
+import { prefixTag } from "../utils/prefixTag.mjs";
 
 /**
 * Handles form submission to add a new post.
@@ -16,28 +16,28 @@ import { prefixTag} from "../utils/prefixTag.mjs";
 */
 async function submitForm(e) {
 
- e.preventDefault();
- 
- const form = document.getElementById("add-post");
+  e.preventDefault();
 
- const title = form.postTitle.value;
- const body = form.postMessage.value;
- const tags = prefixTag(form.postTags.value);
- const media = form.postMedia.value;
+  const form = document.getElementById("add-post");
 
- const postToAdd = {
-   title,
-   body, 
-   tags,
-   media
- };
- 
- try {
-   await addPost(postToAdd);
- } catch {
- }
- 
- location.reload("/index.html");
+  const title = form.postTitle.value;
+  const body = form.postMessage.value;
+  const tags = prefixTag(form.postTags.value);
+  const media = form.postMedia.value;
+
+  const postToAdd = {
+    title,
+    body,
+    tags,
+    media
+  };
+
+  try {
+    await addPost(postToAdd);
+  } catch {
+  }
+
+  location.reload("/index.html");
 
 }
 
@@ -48,8 +48,8 @@ async function submitForm(e) {
 * @function submitPost
 */
 export function submitPost() {
- const submitButton = document.querySelector("#submit-message");
- submitButton.addEventListener("click", submitForm);
+  const submitButton = document.querySelector("#submit-message");
+  submitButton.addEventListener("click", submitForm);
 
 }
 

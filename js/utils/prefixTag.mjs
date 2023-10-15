@@ -13,7 +13,7 @@
  */
 export function prefixTag(string) {
   return string
-      .split("#")
-      .filter(Boolean)
-      .map((w) => "#" + w.trim());
+    .split("#")
+    .filter(Boolean)
+    .map((w) => "#" + w.trim());
 }

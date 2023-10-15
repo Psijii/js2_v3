@@ -15,56 +15,61 @@
   <script src="../js/nav.mjs" type="module"></script>
 
 </head>
-<body class="body-bg text-center">
-<header>
-  <div class="container">
-    <div class="row justify-content-center">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">So-U</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" id="profileNavLink" href="/profile/index.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="feedNavLink" href="/feed/index.html">Feed</a>
-                    </li>
-                </ul>
-            </div>
-            <button class="btn btn-primary text-light" id="logOut">Log Out</button>
-          </nav>
-    </div>
-</div>
-  <form role="search" class="d-flex search-field m-auto pb-3 w-50">
-    <input type="search" class="form-control me-2 rounded-2 bg-light" id="search-field-tags" placeholder="Search...">
-    <button class="btn btn-primary m3 rounded-2" id="search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-  </form>
-</header>
 
-    <div class="login-form mx-auto my-5 bg-light shadow-lg rounded-2 p-2">
-      <div class="logo mb-4 text-uppercase">so-u</div>
-      <h1 class="mb-3 h2">Sign in</h1>
-      <form id="loginForm">
-        <div class="mb-4 text-start">
-          <label for="loginEmail" class="form-label">Email</label>
-          <input type="email" class="form-control bg-light rounded-2" id="loginEmail" placeholder="Your @Noroff.no-mail" required>
-        </div>
-        <div class="mb-4 text-start">
-          <label for="loginPassword" class="form-label">Password</label>
-          <input type="password" class="form-control bg-light rounded-2" id="loginPassword" placeholder="Type password" required>
-        </div>
-        <button type="submit" class="btn btn-primary btn-lg rounded-2 mb-4 w-100 text-light">Login</button>
-      </form>
-      <div id="messageContainer" class="message-container" style="display: none">
-        <p id="successMessage" class="success-message">Logged in</p>
-        <p id="errorMessage" class="error-message">Something went wrong, try again.</p>
+<body class="body-bg text-center">
+  <header>
+    <div class="container">
+      <div class="row justify-content-center">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">So-U</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" id="profileNavLink" href="/profile/index.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="feedNavLink" href="/feed/index.html">Feed</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-primary text-light" id="logOut">Log out</button>
+        </nav>
+      </div>
     </div>
-    
+    <form role="search" class="d-flex search-field m-auto pb-3 w-50">
+      <input type="search" class="form-control me-2 rounded-2 bg-light" id="search-field-tags" placeholder="Search...">
+      <button class="btn btn-primary m3 rounded-2" id="search-button" type="submit"><i
+          class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </header>
+
+  <div class="login-form mx-auto my-5 bg-light shadow-lg rounded-2 p-2">
+    <div class="logo mb-4 text-uppercase">so-u</div>
+    <h1 class="mb-3 h2">Sign in</h1>
+    <form id="loginForm">
+      <div class="mb-4 text-start">
+        <label for="loginEmail" class="form-label">Email</label>
+        <input type="email" class="form-control bg-light rounded-2" id="loginEmail" placeholder="Your @Noroff.no-mail"
+          required>
+      </div>
+      <div class="mb-4 text-start">
+        <label for="loginPassword" class="form-label">Password</label>
+        <input type="password" class="form-control bg-light rounded-2" id="loginPassword" placeholder="Type password"
+          required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg rounded-2 mb-4 w-100 text-light">Login</button>
+    </form>
+    <div id="messageContainer" class="message-container" style="display: none">
+      <p id="successMessage" class="success-message">Logged in</p>
+      <p id="errorMessage" class="error-message">Something went wrong, try again.</p>
     </div>
-      <div>Don't have an account? <a href="/index.html">Register here!</a></div>
+
+  </div>
+  <div>Don't have an account? <a href="/index.html">Register here!</a></div>
 
   <!---footer with random social media links and copyright-->
   <footer class="body-bg text-dark text-center py-3">
@@ -82,4 +87,5 @@
     </div>
   </footer>
 </body>
+
 </html>
