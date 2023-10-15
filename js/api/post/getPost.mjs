@@ -28,3 +28,4 @@ export async function getPosts(tag) {
   const response = await fetchToken(postsURL);
   return await response.json();
 }
+

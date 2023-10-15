@@ -1,4 +1,3 @@
-
 /**
 * Renders a post element using innerHTML.
 * 

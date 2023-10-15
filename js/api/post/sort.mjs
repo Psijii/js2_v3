@@ -10,7 +10,7 @@ import { fetchToken } from "../fetchToken.mjs";
 
 
 const actionEndpoint = "/posts";
-/**
+/** 
 * Gets posts from API.
 * 
 * Constructs API endpoint URL based on tag and sorting.

@@ -1,4 +1,3 @@
-
 /**
  * Handles tag-based search when the search button is clicked.
  *
