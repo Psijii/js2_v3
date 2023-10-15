@@ -50,6 +50,14 @@ Error with Sass's src and dist, another known issue, making it harder to work wi
 
 If you encounter any other issues during the project, feel free to document them here and provide information on how to address them.
 
+<<<<<<< Updated upstream
 ## Contact information
+=======
+### Why is there so little history on this repo?
+
+Due to issues with npm, sass etc. I had to re-create the repo a few times in order to make the functions work properly
+
+## Contact Information
+>>>>>>> Stashed changes
 
 If you have any questions or feedback, please reach out to me.
