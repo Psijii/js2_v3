@@ -4,11 +4,17 @@
 
 The project involves working with JavaScript, HTML, CSS, and other technologies to build a social media site. Please note that there are known issues, particularly related to the sorting of posts in JavaScript and the appearance of "/null" in the console log, which were impossible to finish due to time constraints. Below, you will find a brief outline of the project, setup instructions, and known issues.
 
-## Project Description
+## Project description
 
 Project 2 is a social media site developed as part of the Noroff course in JavaScript 2. It involves using JavaScript, HTML, and CSS.
 
-## Setup Instructions
+### Trello board:
+https://trello.com/b/1abuJ4RB/js2ca
+
+### Live site: 
+https://silly-daffodil-af15ce.netlify.app/
+
+## Setup instructions
 
 To set up and run this project, follow these steps:
 Clone the Repository: Use Git to clone the project repository to your local machine.
@@ -21,7 +27,7 @@ Running the Application: If there are any specific instructions for running the 
 
 Testing and Debugging: Be sure to thoroughly test the application. Keep in mind that there is a known issue with sorting posts in JavaScript, and you may encounter the issue of "/null" appearing in the console log. Please consult the known issues section below for guidance on how to address these problems.
 
-## Known Issues
+## Known issues
 
 Please be aware of the following known issues:
 
@@ -33,6 +39,6 @@ Error with Sass's src and dist, another known issue, making it harder to work wi
 
 If you encounter any other issues during the project, feel free to document them here and provide information on how to address them.
 
-## Contact Information
+## Contact information
 
 If you have any questions or feedback, please reach out to me.
