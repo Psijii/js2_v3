@@ -14,6 +14,17 @@ https://trello.com/b/1abuJ4RB/js2ca
 ### Live site: 
 https://silly-daffodil-af15ce.netlify.app/
 
+### Sources used to learn different functions:
+https://jwt.io/introduction
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+https://www.codecademy.com/
+
+https://www.geeksforgeeks.org/javascript/
+
+https://legacy.reactjs.org/docs/faq-structure.html For file structures
+
 ## Setup instructions
 
 To set up and run this project, follow these steps:
