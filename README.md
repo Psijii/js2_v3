@@ -6,24 +6,27 @@ The project involves working with JavaScript, HTML, CSS, and other technologies 
 
 ## Project description
 
-Project 2 is a social media site developed as part of the Noroff course in JavaScript 2. It involves using JavaScript, HTML, and CSS.
+JS2 is a social media site developed as part of the Noroff course in JavaScript 2. It involves using JavaScript, HTML, and CSS.
 
-### Trello board:
-https://trello.com/b/1abuJ4RB/js2ca
+### Trello board
 
-### Live site: 
-https://silly-daffodil-af15ce.netlify.app/
+<https://trello.com/b/1abuJ4RB/js2ca>
 
-### Sources used to learn different functions:
-https://jwt.io/introduction
+### Live site
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+<https://silly-daffodil-af15ce.netlify.app/>
 
-https://www.codecademy.com/
+### Sources used to learn different functions
 
-https://www.geeksforgeeks.org/javascript/
+<https://jwt.io/introduction>
 
-https://legacy.reactjs.org/docs/faq-structure.html For file structures
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
+
+<https://www.codecademy.com/>
+
+<https://www.geeksforgeeks.org/javascript/>
+
+<https://legacy.reactjs.org/docs/faq-structure.html> For file structures
 
 ## Setup instructions
 
@@ -50,14 +53,10 @@ Error with Sass's src and dist, another known issue, making it harder to work wi
 
 If you encounter any other issues during the project, feel free to document them here and provide information on how to address them.
 
-<<<<<<< Updated upstream
-## Contact information
-=======
 ### Why is there so little history on this repo?
 
 Due to issues with npm, sass etc. I had to re-create the repo a few times in order to make the functions work properly
 
 ## Contact Information
->>>>>>> Stashed changes
 
 If you have any questions or feedback, please reach out to me.
