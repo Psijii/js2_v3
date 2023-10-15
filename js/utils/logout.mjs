@@ -1,4 +1,3 @@
-
 /**
 * Logs user out by clearing localStorage and redirecting to home page.
 * 

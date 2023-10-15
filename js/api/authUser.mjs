@@ -1,10 +1,9 @@
 import { SOCIAL_API_URL } from "./APIvariables.mjs";
 
 const formAction = "/auth/register";
-
 /**
 * Updates a post.
-* 
+*  
 * Constructs API URL for updating post with ID.
 * Makes PUT request with post data as JSON body.
 * Returns parsed JSON response.

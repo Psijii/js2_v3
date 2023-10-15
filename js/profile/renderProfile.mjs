@@ -4,12 +4,11 @@ import { fetchToken } from "../api/fetchToken.mjs";
 import { profileTemplate } from "../renders/profileTemplate.mjs";
 
 const user = profile("profile");
-
 const actionEndpoint = `/profiles/${user.name}`;
 
 /**
 * Fetches user profile data from API.
-* 
+*  
 * Constructs profile API URL using constants.
 * Calls fetchToken() to make authorized API request.
 * Parses JSON response into profile object.

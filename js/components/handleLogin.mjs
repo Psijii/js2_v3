@@ -8,7 +8,7 @@ import { login } from "../api/userLogin.mjs";
 * Creates user object from values.
 * Calls login() function, passing user object.
 * 
-* @function userLogin
+* @function userLogin 
 */
 export function userLogin() {
   const loginForm = document.getElementById("loginForm");

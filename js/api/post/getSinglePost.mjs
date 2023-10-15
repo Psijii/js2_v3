@@ -9,7 +9,7 @@ const actionEndpoint = "/posts";
 * Makes DELETE request to delete post.
 * Gets JSON response and reloads page.
 * Returns delete results.
-* 
+*  
 * @async
 * @function delPost - Deletes a post
 * @param {Object} post - Post object to delete 

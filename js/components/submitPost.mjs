@@ -1,8 +1,7 @@
-// Initializes submit button click handler.
 import { addPost } from "../api/post/addPost.mjs";
 import { prefixTag } from "../utils/prefixTag.mjs";
 
-/**
+/** 
 * Handles form submission to add a new post.
 * 
 * Gets form values from input fields.

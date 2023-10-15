@@ -3,7 +3,7 @@ import { load } from "./loadToken.mjs";
 
 /**
 * Returns authorization headers object.
-*  
+*   
 * Gets auth token from localStorage.
 * Returns headers object with:
 * - Content-Type for JSON  
@@ -24,6 +24,7 @@ export function addHeaders() {
   };
 
 }
+
 
 /**
 * Makes fetch request with authorization header.

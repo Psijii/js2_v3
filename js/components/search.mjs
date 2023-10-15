@@ -1,4 +1,3 @@
-
 /**
  * Handles tag-based search when the search button is clicked.
  *
@@ -8,7 +7,7 @@
  * results page with the specified tag as a query parameter.
  *  @function tagSearch
  */
-
+ 
 export function tagSearch() {
 
   const searchBtn = document.getElementById("search-button");
@@ -21,7 +20,7 @@ export function tagSearch() {
     const tag = searchInput.value;
 
     window.location.href = `/search.html?tag=${tag}`;
-
+ 
   });
 
 }

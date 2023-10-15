@@ -10,7 +10,7 @@ const actionEndpoint = "/posts?_author=true";
 * Uses fetchToken() to attach auth token.
 * Returns response JSON on success, logs error on failure.
 *  
-* @async
+* @async 
 * @function addPost
 * @param {Object} postData - New post data  
 * @returns {Promise} Response JSON object
@@ -32,4 +32,5 @@ export async function addPost(postData) {
   }
 
 }
+
 

@@ -5,3 +5,4 @@ import { tagSearch } from "./components/search.mjs";
 getProfile();
 getPosts();
 tagSearch();
+
