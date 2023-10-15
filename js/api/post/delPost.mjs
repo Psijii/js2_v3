@@ -28,3 +28,4 @@ export async function delPost(post) {
   location.reload("/index.html");
   return results;
 }
+
