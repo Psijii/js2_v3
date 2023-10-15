@@ -1,7 +1,6 @@
 import { SOCIAL_API_URL } from "./APIvariables.mjs";
 
 const formAction = "/auth/register";
-
 /**
 * Updates a post.
 * 

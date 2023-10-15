@@ -2,6 +2,7 @@ import { SOCIAL_API_URL } from "./APIvariables.mjs";
 
 const formAction = "/auth/login";
 
+
 /**
 * Handles user login request to API.
 * 
