@@ -1,4 +1,3 @@
-// Purpose: Handle post update form submission
 import { getSinglePost } from "../api/post/getSinglePost.mjs";
 import { updatePost } from "../api/post/updPost.mjs";
 

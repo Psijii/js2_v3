@@ -1,4 +1,3 @@
-// Initializes submit button click handler.
 import { addPost } from "../api/post/addPost.mjs";
 import { prefixTag } from "../utils/prefixTag.mjs";
 

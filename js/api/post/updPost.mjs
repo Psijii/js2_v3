@@ -6,7 +6,7 @@ const actionEndpoint = "/posts";
 
 /** 
 * Updates a post.
-* 
+*  
 * Constructs API URL for updating post with ID.
 * Makes PUT request with post data as JSON body.
 * Returns parsed JSON response.

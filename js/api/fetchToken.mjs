@@ -25,6 +25,7 @@ export function addHeaders() {
 
 }
 
+
 /**
 * Makes fetch request with authorization header.
 * 
