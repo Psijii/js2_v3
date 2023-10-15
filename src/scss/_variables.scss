@@ -1,0 +1,52 @@
+//Colors
+$primary: #6695d0;
+$secondary: #cecece;
+$body-bg: #d3dee0;
+$light: #fcfcfc;
+$main-text-color: #141414;
+$secondary-text-color: #b1b1b1;
+$nav-text-color: $primary;
+
+$logo-font: "Palatino"; 
+$main-font: "Arial";
+$header-font: "Arial";
+
+$input-btn-font-family: $header-font;
+$input-font-family: $main-font;
+$nav-link-font-size: 1.5rem;
+$username-font-size: 0.75rem;
+$main-font-size: 1rem;
+$header-font-size: 2rem;
+$secondary-header-font-size: 1.5rem;
+$logo-font-size: 3rem;
+
+$header-font-color: $primary;
+
+//Elements
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font;
+}
+
+p,
+a,
+label,
+input {
+  font-family: $main-font;
+}
+
+p {
+  font-size: $main-font-size;
+}
+
+
+//Link styles
+$link-decoration: none;
+
+//Spacing and width
+$main-section-width: 59.625rem;
+$message-max-width: 46.875rem;
+
+

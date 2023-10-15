@@ -1,0 +1,45 @@
+@import "main";
+
+.profile-header {
+  max-width: $main-section-width;
+}
+  
+.profile-name {
+  font-family: $header-font;
+  font-size: $header-font-size;
+}
+
+.profile-username {
+  font-family: $main-font;
+  font-size: $secondary-header-font-size;
+}
+
+//Section
+
+.profile-section {
+  max-width: $main-section-width;
+}
+
+.about,
+.contacts {
+  width: 467px;
+  background-color: rgb(179, 179, 214);
+}
+
+.about h2,
+.contacts h2 {
+  font-size: $secondary-header-font-size;
+}
+
+.contacts-link {
+  color: $main-text-color;
+}
+
+.contact-btn {
+  max-height: 3.125rem;
+  color: white;
+}
+
+.contact-btn:hover {
+  color: #0b1a4c;
+}

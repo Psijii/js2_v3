@@ -1,0 +1,29 @@
+@import "index";
+@import "login";
+@import "profile"; 
+
+@media screen and (max-width: 576px) {
+  .login-form {
+    padding: 0.625rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .about,
+  .contacts {
+    width: 100%;
+    margin-bottom: 1.5625rem;
+  }
+
+  .profile-flex {
+    flex-direction: column;
+  }
+
+  .post-message {
+    flex-direction: column;
+  }
+
+  .post-input-message {
+    margin-top: 1.5625rem;
+  }
+}

@@ -1,0 +1,59 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  font-family: $main-font;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: $primary;
+  font-family: $header-font;
+  font-size: $nav-link-font-size;
+}
+  .nav-link:hover {
+    color: #082158 !important;
+  }
+
+
+.search-field {
+  max-width: 31.25rem;
+}
+
+//contacts
+.contact-picture {
+  @include contact-picture(3.125rem, 3.125rem);
+}
+
+.contact-name {
+  font-family: $header-font;
+}
+
+.contact-username {
+  font-size: $username-font-size;
+}
+
+//Sections
+.section-nav {
+  max-width: $main-section-width;
+}
+
+.profile-post-section {
+  max-width: $main-section-width;
+}
+
+.post-message {
+  max-width: $message-max-width;
+  background-color: $body-bg;
+}
+
+.post-input-message {
+  background-color: $body-bg;
+  width: 100%;
+}
+
+.messages {
+  background-color: $body-bg;
+  max-width: $message-max-width;
+}
